@@ -10,6 +10,7 @@
   height: 60px;
   margin: 0 auto;
   max-width: 1180px;
+  padding: 0 20px;
 }
 .header .profile {
   width: 120px;
@@ -28,6 +29,7 @@
 .header .mokuji {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .header .mokuji ul {
   list-style: none;
@@ -51,6 +53,12 @@
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .profileimg {
+    margin-bottom: 1rem;
+  }
 }
 
 #about {
@@ -67,7 +75,7 @@
 }
 #about p {
   text-align: start;
-  width: 300px;
+  max-width: 300px;
 }
 
 .name {
@@ -78,4 +86,31 @@
   display: flex;
   justify-content: center;
   margin: 40px 0;
+}
+@media screen and (max-width: 768px) {
+  .profilebox {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#bicycle {
+  margin: 5rem auto 0 auto;
+  max-width: 1180px;
+}
+#bicycle h2 {
+  text-align: center;
+  margin: 40px 0;
+  text-decoration: underline;
+  font-size: 2rem;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+#bicycle .bicycle-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bicycle .bicycle-image {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
