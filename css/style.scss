@@ -51,7 +51,7 @@
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 1rem;
+  margin-right: 2rem;
       @media screen and (max-width: 768px) {
     margin-bottom: 1rem;
   }
@@ -70,7 +70,9 @@
   }
   p{
     text-align: start;
-    max-width: 300px;
+    max-width: 400px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
   }
 }
 
