@@ -110,8 +110,14 @@
 }
 #bicycle .bicycle-images {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+#bicycle .bicycle-images .bicycle-set {
+  text-align: center;
+}
+#bicycle .bicycle-images h3, #bicycle .bicycle-images p {
+  padding: 1rem;
 }
 #bicycle .bicycle-image {
   width: 300px;
