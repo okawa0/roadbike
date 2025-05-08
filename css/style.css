@@ -123,6 +123,8 @@
   width: 300px;
 }
 
-footer span {
-  text-align: center;
+#copy {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */

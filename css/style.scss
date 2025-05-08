@@ -117,8 +117,8 @@
   }
 }
 
-footer{
-  span{
-    text-align: center;
-  }
+#copy{
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
 }
