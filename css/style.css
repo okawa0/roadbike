@@ -97,7 +97,7 @@
 }
 
 #bicycle {
-  margin: 5rem auto 3rem auto;
+  margin: 5rem auto 5rem auto;
   max-width: 960px;
 }
 #bicycle h2 {
@@ -121,4 +121,8 @@
 }
 #bicycle .bicycle-image {
   width: 300px;
+}
+
+footer span {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
