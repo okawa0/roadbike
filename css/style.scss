@@ -105,6 +105,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;      
+    }
     .bicycle-set{
       text-align: center;
     }
@@ -114,6 +117,7 @@
   }
   .bicycle-image{
     width: 300px;
+
   }
 }
 
