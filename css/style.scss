@@ -78,6 +78,7 @@
 
 .name{
   text-align: start;
+  margin: 0 1rem 0;
 }
 
 .profilebox{
@@ -108,8 +109,12 @@
     @media screen and (max-width: 768px) {
       flex-direction: column;      
     }
+    @media screen and (min-width:769px) and (max-width:1000px) {
+      justify-content: center;
+    }
     .bicycle-set{
       text-align: center;
+      margin-bottom: 2rem;
     }
     h3,p{
       padding: 1rem;
@@ -117,7 +122,10 @@
   }
   .bicycle-image{
     width: 300px;
-
+    @media screen and (min-width:769px) and (max-width:1000px) {
+      width: 200px;
+      margin: 0 1rem;
+    }
   }
 }
 
