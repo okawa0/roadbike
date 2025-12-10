@@ -26,16 +26,16 @@
   color: #fff;
   font-weight: bold;
 }
-.header .mokuji {
+.header nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header .mokuji ul {
+.header nav ul {
   list-style: none;
   display: flex;
 }
-.header .mokuji ul li {
+.header nav ul li {
   font-size: 14.4px;
   margin: auto 22px;
 }
